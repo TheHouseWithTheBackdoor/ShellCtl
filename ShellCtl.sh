@@ -32,9 +32,9 @@ _shellctl_completions() {
     return 0
 }
 
-complete -F _shellctl_completions ShellCtl.sh
+complete -F _shellctl_completions ShellCtl
 complete -F _shellctl_completions ./ShellCtl.sh
-complete -F _shellctl_completions "$(realpath "$0")"
+
 EOF
         chmod +x "$comp_file"
         if ! grep -qF "shellctl-completion.bash" ~/.bashrc; then
