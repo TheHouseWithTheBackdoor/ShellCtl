@@ -12,14 +12,14 @@ Download the `ShellCtl.sh` script to a system‑wide location and make it execut
 
 #### With `curl`
 ```bash
-sudo curl -L https://github.com/YourUser/ShellCtl/raw/main/ShellCtl.sh \
+sudo curl -L https://github.com/TheHouseWithTheBackdoor/ShellCtl/raw/main/ShellCtl.sh \
   -o /usr/local/bin/ShellCtl
 sudo chmod +x /usr/local/bin/ShellCtl
 ```
 
 #### With `wget`
 ```bash
-sudo wget https://github.com/YourUser/ShellCtl/raw/main/ShellCtl.sh \
+sudo wget https://github.com/TheHouseWithTheBackdoor/ShellCtl/raw/main/ShellCtl.sh \
   -O /usr/local/bin/ShellCtl
 sudo chmod +x /usr/local/bin/ShellCtl
 ```
@@ -122,4 +122,4 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ---
 
-Made with ❤️ by Your Name
+Made with ❤️ by Garpoz Master
